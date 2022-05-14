@@ -15,11 +15,10 @@ a {
   width: 50%; 
   margin: auto; 
   margin-top: 2%;
-  border-bottom: 2px solid rgb(0, 30, 106);
+  border-bottom: 3px solid rgb(0, 30, 106);
 } 
 #top h1 {
   -webkit-text-fill-color: rgb(0, 30, 106);
-  -webkit-text-stroke: .5px gray;
   text-align: center
 }
 #intro {

@@ -19,11 +19,10 @@ a {
 } 
 #top h1 {
   -webkit-text-fill-color: rgb(0, 30, 106);
-  -webkit-text-stroke: .5px gray;
   text-align: center;
   width: 50%;
   margin: auto;
-  border-bottom: 2px solid rgb(0, 30, 106);
+  border-bottom: 3px solid rgb(0, 30, 106);
 }
 #c1 {
   width: 50%;
