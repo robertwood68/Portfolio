@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(250, 245, 241) !important;
+}
+nav {
+  background-color: rgb(0, 30, 106) !important;
+}
+nav ul li ul li {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+a {
+  color: #00B7FF;
+}
+#top {
+  width: 50%; 
+  margin: auto; 
+  margin-top: 2%;
+  border-bottom: 2px solid rgb(0, 30, 106);
+} 
+#top h1 {
+  -webkit-text-fill-color: rgb(0, 30, 106);
+  -webkit-text-stroke: .5px gray;
+  text-align: center
+}
+#intro {
+  width: 50%; 
+  margin: auto; 
+  margin-top: 2%;
+}
+#intro p {
+  font-size: 18px;
+  text-align: left;
+}
+#cardHolder {
+  display: flex;
+}
+#cards {
+  background-color: rgb(55, 75, 126) !important;
+  display: inline-block;
+  max-width: 18rem;
+  min-height: 20rem;
+  max-height: 20rem;
+}
+#cardHeader {
+  text-align: center;
+  -webkit-text-stroke: .5px gray;
+  border-bottom: 2px solid white;
+}
+#cardP {
+  font-size: 18px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+}
+#cardButton {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  bottom: 10%;
+}
+#aboutDiv {
+  width: auto; 
+  margin: auto; 
+  margin-left: 10%;
+  margin-right: 1%;
+  margin-top: 2%;
+} 
+#experienceDiv {
+  width: auto; 
+  margin: auto; 
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+#contactDiv {
+  width: auto; 
+  margin: auto; 
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+#projectsDiv {
+  width: auto; 
+  margin: auto; 
+  margin-left: 1%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+#lastDiv {
+  width: 75%; 
+  margin: auto; 
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+#lastDiv p {
+  text-align: center;
+  font-size: 18px;
+}
