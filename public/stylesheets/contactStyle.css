@@ -5,12 +5,23 @@ body {
 nav {
   background-color: rgb(0, 30, 106) !important;
 }
+.navbar-nav {
+  float:none !important;
+  margin:0 auto !important;
+  display: flex !important;
+  text-align: center !important;
+}
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
 nav ul li ul li {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
+  background-color: rgb(255, 255, 255) !important;
+  
 }
 a {
   color: #00B7FF;
+  font-size: 18px;
 }
 
 #top {
@@ -160,6 +171,7 @@ a {
 }
 #emailForm {
   padding: 2%;
+  text-align: right;
 }
 .headerOfForm {
   -webkit-text-fill-color: rgb(0, 30, 106);
@@ -196,8 +208,4 @@ a {
 }
 .formbox2 {
   margin-top: 3.5%
-}
-.btn-outline-success {
-  margin-left: 87%;
-  margin-right: 0%;
 }
