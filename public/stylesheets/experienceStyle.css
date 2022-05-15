@@ -11,10 +11,77 @@ nav ul li ul li {
 a {
   color: #00B7FF;
 }
+#top {
+  width: 50%; 
+  margin: auto; 
+  margin-top: 2%;
+  text-align: center;
+} 
 #top h1 {
   -webkit-text-fill-color: rgb(0, 30, 106);
   text-align: center;
   width: 50%;
   margin: auto;
   border-bottom: 3px solid rgb(0, 30, 106);
+}
+#container {
+  width: 100%;
+  margin:auto;
+  margin-top: 1%;
+  display: flex;
+}
+#container p {
+  font-size: 18px;
+  text-align: left;
+}
+#container h2 {
+  -webkit-text-fill-color: rgb(0, 30, 106);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+#resumeDiv {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+}
+#iframe {
+  margin-top: 1%;
+  border: 5px solid rgb(0, 30, 106);
+}
+#languages {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+}
+#languages h2 {
+  text-align: left;
+  margin-bottom: 1%;
+}
+#languages p {
+  text-decoration: underline;
+}
+#backend {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
+}
+#frontend {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
+}
+#dbms {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
+}
+#frameworks {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
 }
