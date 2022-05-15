@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <!-- image in the tab -->
     <link rel="icon" type="image/x-icon" href="/images/logo.png">
     <!-- title of the page-->
@@ -58,10 +58,13 @@
         </div>
     </nav>
 
+    <!-- Header of the contact page -->
     <div id="top" style="width: 50%; margin: auto; margin-top: 2%;">
         <h1 style="text-align: center;">Contact Me</h1>
     </div>
+    <!-- containeer that holds the socials div and the info div -->
     <div id="container">
+        <!-- socials div -->
         <div id="socials">
             <h2>Socials</h2>
             <ul class="social-icons">
@@ -72,6 +75,7 @@
                 <li><a href="https://github.com/robertwood68"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
+        <!-- info div -->
         <div id="info">
             <h2>Information</h2>
             <ul>
@@ -82,5 +86,74 @@
             </ul>
         </div>
     </div>
+    <!-- Message submission div -->
+    <div id="messageForm">
+        <!-- Message submission header -->
+        <h5 class="headerOfForm">Send me a message!</h5>
+        <form action="https://formsubmit.co/349421ab0bb6de4d80775d1ce3f0a878" method="post" id="emailForm" class="needs-validation" novalidate>
+            
+            <div id="names">
+                <!-- First Name input -->
+                <div class="form-floating mb-3 firstName">
+                    <input name="First Name" type="text" class="form-control" id="floatingFirstName" placeholder="John" required>
+                    <label class="label" for="floatingFirstName"><h5>First Name:</h5></label>
+                    <!-- If valid info -->
+                    <div class="valid-tooltip">
+                        <i class="fa fa-check-square-o"></i> Good
+                    </div>
+                    <!-- If invalid info -->
+                    <div class="invalid-tooltip">
+                        <i class="fa fa-times-circle"></i> Enter first name
+                    </div>
+                </div>
+                <!-- Last Name input -->
+                <div class="form-floating mb-3 lastName">
+                    <input name="Last Name" type="text" class="form-control" id="floatingLastName" placeholder="Appleseed" required>
+                    <label class="label" for="floatingLastName"><h5>Last Name:</h5></label>
+                    <!-- If valid info -->
+                    <div class="valid-tooltip">
+                        <i class="fa fa-check-square-o"></i> Good
+                    </div>
+                    <!-- If invalid info -->
+                    <div class="invalid-tooltip">
+                        <i class="fa fa-times-circle"></i> Enter last name
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Email input -->
+            <div class="form-floating mb-3 formbox1">
+                <input name="Email" type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+                <label class="label" for="floatingEmail"><h5>Email Address:</h5></label>
+                <!-- If valid info -->
+                <div class="valid-tooltip">
+                    <i class="fa fa-check-square-o"></i> Good
+                </div>
+                <!-- If invalid info -->
+                <div class="invalid-tooltip">
+                    <i class="fa fa-times-circle"></i> Enter a valid email
+                </div>
+            </div>
+
+            <!-- Message textarea -->
+            <div class="form-floating mb-3 formbox2">
+                <textarea name="Message" class="form-control" id="floatingMessage" placeholder="Great Site!" required></textarea>
+                <label class="label" for="floatingMessage"><h5>Message:</h5></label>
+                <!-- If valid info -->
+                <div class="valid-tooltip">
+                    <i class="fa fa-check-square-o"></i> Good
+                </div>
+                <!-- If invalid info -->
+                <div class="invalid-tooltip">
+                    <i class="fa fa-times-circle"></i> Enter a message
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <input type="submit" class="btn btn-outline-success" value="Send Message"> 
+        </form>
+    </div>
   </body>
+  <script src="/javascripts/validation.js"></script>
 </html>

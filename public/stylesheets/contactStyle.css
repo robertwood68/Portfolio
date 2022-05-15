@@ -48,6 +48,57 @@ a {
 #container img {
   border: 4px solid gray;
 }
+#messageForm {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+  margin-bottom: 3%;
+  border: 3px solid rgb(0, 30, 106);
+}
+#emailForm {
+  padding: 2%;
+}
+.headerOfForm {
+  -webkit-text-fill-color: rgb(0, 30, 106);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+}
+.form-control {
+  background-color: rgb(243, 247, 253) !important;
+  color: rgb(0, 0, 133) !important;
+}
+.label {
+  color: rgb(0, 0, 133) !important;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+#names {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0px;
+}
+.firstName {
+  display: inline-block;
+  width: 49%;
+  margin-right: 1%;
+}
+.lastName {
+  display: inline-block;
+  width: 49%;
+  margin-left: 1%;
+}
+.formbox1 {
+  margin-top: 2%
+}
+.formbox2 {
+  margin-top: 3.5%
+}
+.btn-outline-success {
+  margin-left: 87%;
+  margin-right: 0%;
+}
 
 #socials {
   background-color: rgb(213, 213, 213);
@@ -58,11 +109,10 @@ a {
   margin-bottom: 2%;
   text-align: left;
   font-size: 18px;
-  width: 45%;
+  width: 47%;
   display: inline-block;
   border-radius: 20px 20px 20px 20px;
 }
-
  .social-icons {
    text-align: center;
 	 padding: 0;
@@ -111,7 +161,7 @@ a {
 	 -webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
 	 transition: all 265ms ease-in;
-}
+ }
 
 #info {
   background-color: rgb(213, 213, 213);
@@ -122,7 +172,7 @@ a {
   margin-bottom: 2%;
   text-align: left;
   font-size: 18px;
-  width: 45%;
+  width: 47%;
   display: inline-block;
   border-radius: 20px 20px 20px 20px;
 }
