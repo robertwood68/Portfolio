@@ -39,7 +39,8 @@ a {
   width: 100%;
   margin:auto;
   margin-top: 1%;
-  display: flex;
+  display: inline-block;
+  text-align: center;
 }
 #container p {
   font-size: 18px;
@@ -55,6 +56,7 @@ a {
   width: 45%;
   margin: auto;
   display: inline-block;
+  margin-right: 2%;
 }
 #iframe {
   margin-top: 1%;
@@ -64,6 +66,8 @@ a {
   width: 45%;
   margin: auto;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
 }
 #languages h2 {
   text-align: left;
@@ -72,27 +76,57 @@ a {
 #languages p {
   text-decoration: underline;
 }
+#listDiv1 {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  border: 2px solid rgb(0, 30, 106);
+  border-bottom: none;
+}
+#listDiv2 {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  border: 2px solid rgb(0, 30, 106);
+  border-top: none;
+}
 #backend {
+  float: left;
+  display: flexbox;
   width: 49%;
-  display: inline-block;
   margin: auto;
   margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
 }
 #frontend {
+  float: left;
+  display: flexbox;
   width: 49%;
-  display: inline-block;
   margin: auto;
   margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
 }
 #dbms {
+  float: left;
+  display: flexbox;
   width: 49%;
-  display: inline-block;
   margin: auto;
   margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
 }
 #frameworks {
+  float: left;
+  display: flexbox;
   width: 49%;
-  display: inline-block;
   margin: auto;
   margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
 }
