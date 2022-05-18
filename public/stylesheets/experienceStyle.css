@@ -78,8 +78,8 @@ a {
 }
 #backend {
   width: 45%;
-  float: left;
   margin: 0;
+  margin-left: 0px;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
@@ -87,8 +87,8 @@ a {
 }
 #frontend {
   width: 45%;
-  float: left;
   margin: 0;
+  margin-right: 0px;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
@@ -96,8 +96,8 @@ a {
 }
 #dbms {
   width: 45%;
-  float: left;
   margin: 0;
+  margin-left: 0px;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
@@ -105,8 +105,8 @@ a {
 }
 #frameworks {
   width: 45%;
-  float: left;
   margin: 0;
+  margin-right: 0px;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
