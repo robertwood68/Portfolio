@@ -76,55 +76,37 @@ a {
 #languages p {
   text-decoration: underline;
 }
-#listDiv1 {
-  width: 100%;
-  display: flex;
-  font-size: 18px;
-  border: 2px solid rgb(0, 30, 106);
-  border-bottom: none;
-}
-#listDiv2 {
-  width: 100%;
-  display: flex;
-  font-size: 18px;
-  border: 2px solid rgb(0, 30, 106);
-  border-top: none;
-}
 #backend {
+  width: 45%;
   float: left;
-  display: flexbox;
-  width: 49%;
-  margin: auto;
+  margin: 0;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
 }
 #frontend {
+  width: 45%;
   float: left;
-  display: flexbox;
-  width: 49%;
-  margin: auto;
+  margin: 0;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
 }
 #dbms {
+  width: 45%;
   float: left;
-  display: flexbox;
-  width: 49%;
-  margin: auto;
+  margin: 0;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
 }
 #frameworks {
+  width: 45%;
   float: left;
-  display: flexbox;
-  width: 49%;
-  margin: auto;
+  margin: 0;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;

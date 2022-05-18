@@ -63,7 +63,7 @@ a {
   margin: auto !important;
   text-align: center !important;
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1400px) {
   #cardHolder {
     display: flex;
     width: 100%;
