@@ -19,7 +19,7 @@ nav ul li ul li {
   
 }
 a {
-  color: #00B7FF;
+  color: rgb(0, 136, 255);
   font-size: 18px;
 }
 #top {
@@ -39,6 +39,7 @@ a {
   width: 100%;
   margin:auto;
   margin-top: 1%;
+  margin-bottom: 2%;
   display: inline-block;
   text-align: center;
 }
@@ -70,45 +71,148 @@ a {
   margin-left: 2%;
 }
 #languages h2 {
-  text-align: left;
+  text-align: center;
   margin-bottom: 1%;
+}
+#languages h4 {
+  color: rgb(0, 30, 106);
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid rgb(0, 30, 106);
+  overflow-wrap: break-word;
 }
 #languages p {
   text-decoration: underline;
 }
+.row ul li {
+  font-size: 18px;
+  padding: 1%;
+  text-align: left;
+}
 #backend {
   width: 45%;
   margin: 0;
-  margin-left: 0px;
+  margin-right: 2%;
+  margin-left: auto;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
 #frontend {
   width: 45%;
   margin: 0;
-  margin-right: 0px;
+  margin-left: 2%;
+  margin-right: auto;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
 #dbms {
   width: 45%;
   margin: 0;
-  margin-left: 0px;
+  margin-right: 2%;
+  margin-left: auto;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
 #frameworks {
   width: 45%;
   margin: 0;
-  margin-right: 0px;
+  margin-left: 2%;
+  margin-right: auto;
   margin-top: 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#container2 {
+  width: 100%;
+  margin:auto;
+  margin-bottom: 5%;
+  display: inline-block;
+  text-align: center;
+}
+#container2 p {
+  font-size: 18px;
+  text-align: left;
+}
+#container2 h2 {
+  -webkit-text-fill-color: rgb(0, 30, 106);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+#awards {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+  margin-right: 2%;
+}
+#awardsDiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  padding: 2%;
+  font-size: 18px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+#Projects {
+  width: 45%;
+  margin: auto;
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+#Projects h2 {
+  text-align: center;
+  margin-bottom: 1%;
+}
+#Projects h4 {
+  color: rgb(0, 30, 106);
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid rgb(0, 30, 106);
+  overflow-wrap: break-word;
+}
+#individualProjects {
+  width: 45%;
+  margin: 0;
+  margin-right: 2%;
+  margin-left: auto;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#individualProjects a {
+  color: rgb(0, 30, 106) !important;
+  text-decoration: none;
+}
+#groupProjects {
+  width: 45%;
+  margin: 0;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#groupProjects a {
+  color: rgb(0, 30, 106) !important;
+  text-decoration: none;
 }

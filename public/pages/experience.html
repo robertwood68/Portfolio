@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <!-- image in the tab -->
-        <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/beat-buddy/BB.png">
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
         <!-- title of the page-->
         <title>Experience</title>
         <!-- local CSS stylesheet-->
@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <!-- body content for the index page -->
+        <!-- Entire navbar that is used across each page in the application -->
         <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="padding: .5%;">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,66 +61,91 @@
         <div id="top">
             <h1>Experience</h1>
         </div>
-
         <!-- content  -->
         <div id="container">
+            <!-- Embedded PDF reader for my resume-->
             <div id="resumeDiv">
                 <h2>Official Resume</h2>
                 <div id="iframe">
                     <iframe src="/pdfs/Resume - March 31, 2022.pdf" width="100%" height="500px"></iframe>
                 </div>
             </div>
+            <!-- Div containing programming experience divs-->
             <div id="languages" class="container">
-                <h2>Programming Languages</h2>
+                <!-- Header of languages div -->
+                <h2>Programming Experience</h2>
+                <!-- Top row that holds backend experience and frontend experience divs -->
                 <div class="row">
                     <div id="backend" class="g-col-6">
-                        <h4>Backend experience:</h4>
-                        
+                        <h4>Backend Languages</h4>
                         <ul>
                             <li>Java (2+ years)</li>
                             <li>SQL (2+ years)</li>
                             <li>Python (1 year)</li>
                             <li>JavaFX (1 year)</li>
-                            <li>Node.js (less than 1 year)</li>
-                            <li>Java Server Pages (less than 1 year)</li>
+                            <li>Node.js (<1 year)</li>
+                            <li>Java Server Pages (<1 year)</li>
                         </ul>
-                        
                     </div>
-                    
                     <div id="frontend" class="g-col-6">
-                        <h4>Frontend experience:</h4>
-                        
+                        <h4>Frontend Languages</h4>
                         <ul>
-                            <li>HTML (less than 1 year)</li>
-                            <li>CSS (less than 1 year)</li>
-                            <li>JavaScript (less than 1 year)</li>
-                            <li>AJAX (less than 1 year)</li>
+                            <li>HTML (<1 year)</li>
+                            <li>CSS (<1 year)</li>
+                            <li>JavaScript (<1 year)</li>
+                            <li>AJAX (<1 year)</li>
                         </ul>
-                
                     </div>
                 </div>
-                
+                <!-- Bottom row that holds DMBS experience and framework experience divs -->
                 <div class="row">
                     <div id="dbms" class="g-col-6">
-                        <h4>DBMS experience:</h4>
-                        
+                        <h4>DBMS Experience</h4>
                         <ul>
                             <li>MySQL (2+ years)</li>
-                            <li>Apache Derby (less than 1 year)</li>
+                            <li>Apache Derby (<1 year)</li>
                         </ul>
-                
                     </div>
-    
                     <div id="frameworks" class="g-col-6">
-                        <h4>Framework experience:</h4>
-                        
+                        <h4>Framework Experience</h4>
                         <ul>
-                            <li>Express.js (less than 1 year)</li>
+                            <li>Express.js (<1 year)</li>
                         </ul>
-                
                     </div>
                 </div>
-                
+            </div>
+        </div>
+        <!-- content  -->
+        <div id="container2">
+            <!-- Embedded PDF reader for my resume-->
+            <div id="awards">
+                <h2>Awards</h2>
+                <div id="awardsDiv">
+                    <h5>Dean's List | Spring 2022</h5>
+                    <br>
+                    <h5>Dean's List | Fall 2021</h5>
+                </div>
+            </div>
+            <!-- Div containing programming experience divs-->
+            <div id="Projects" class="container">
+                <!-- Header of languages div -->
+                <h2>Projects</h2>
+                <!-- Top row that holds backend experience and frontend experience divs -->
+                <div class="row">
+                    <div id="individualProjects" class="g-col-6">
+                        <h4>Solo Projects</h4>
+                        <ul>
+                            <li><a href="/">This Portfolio Application</a></li>
+                            <li><a href="/BeatBuddy.html">BeatBuddy - Discord Music Bot</a></li>
+                        </ul>
+                    </div>
+                    <div id="groupProjects" class="g-col-6">
+                        <h4>Group Projects</h4>
+                        <ul>
+                            <li><a href="/PCOMM_Application.html">YCP Personalized Commencement Ceremony Application</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
