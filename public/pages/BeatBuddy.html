@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <!-- image in the tab -->
-    <!-- href="/images/logo.png" -->
-    <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/beat-buddy/BB.png">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
     <!-- title of the page-->
     <title>Projects - BeatBuddy</title>
     <!-- local CSS stylesheet-->
@@ -19,51 +18,85 @@
   <body>
     <!-- body content for the index page -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="padding: .5%;">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/experience.html">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a class="dropdown-item" href="/BeatBuddy.html" style="color: rgb(0,30,106); font-size: 18px;">
-                                BeatBuddy - Discord Music Bot
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/PCOMM_Application.html" style="color: rgb(0,30,106); font-size: 18px;">
-                                Personalized Commencement Application
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="/BeatBuddy.html" style="color: rgb(0,30,106); font-size: 18px;">
+                                    BeatBuddy - Discord Music Bot
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/PCOMM_Application.html" style="color: rgb(0,30,106); font-size: 18px;">
+                                    Personalized Commencement Application
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- body content for the projects page -->
-    <h1>This is gonna be my page for beatbuddy</h1>
-    <a href="https://www.beatbuddybot.com">
-        BeatBuddy - Discord Music Bot
-    </a>
-    <p>Ram Ranch.jpeg</p>
+    <!-- page header -->
+    <div id="top">
+        <h1>BeatBuddy - Music Bot</h1>
+    </div>
+    <!-- logo and details of the bot -->
+    <div id="container">
+        <!-- Logo for beatbuddy -->
+        <div id="logoDiv">
+            <img src="/images/BB.png">
+            <h2>
+                <a href="https://www.beatbuddybot.com">
+                    Application Wesbite
+                </a>
+            </h2>
+        </div>
+        <!-- Holds info for beatbuddy-->
+        <div id="info" class="container">
+            <h2>About BeatBuddy</h2>
+            <p>BeatBuddy is a Discord bot application that provides music from different sources to the voice channel that a user is currently in.  The bot takes text-commands from a user, such as "//play rick astley", and performs the corresponding action to the command given.  The bot can play music that is requested by a user in the voice channel that the user is currently in, and everyone else in that voice channel is able to listen to the music simultaneously.  BeatBuddy can play music from YouTube keywords, YouTube video links, Spotify links, and SoundCloud links, and it also has full playlist link support from each of these sources.  Futhermore, the bot also has plenty of commands, ranging from "//help", which provides everything a user needs to know to use the bot, all the way to "//skipto (integer)", which skips to the song in the queue at the number given in the command.  BeatBuddy is available use anytime, anywhere thanks to it being hosted on a VPS.  Though the bot is open for the public to use, there are still more enhancement updates being rolled out to improve the bot and add new commands.  At this time, the bot is currently being used in 22 different servers across Discord.</p>
+        </div>
+    </div>
+    <!-- background of the bot and link to site  -->
+    <div id="container2">
+        <!-- Embedded PDF reader for my resume-->
+        <div id="background">
+            <h2>Project Background</h2>
+            <div id="backgroundDiv">
+                <p>Originally, BeatBuddy was developed in December of 2021 as a locally hosted Python application with simple commands and only had support for YouTube links.  However, in February of 2022, I enrolled in a software engineering class at York College of Pennsylvania in which I was required to complete an "individual project" throughout the semester.  So, I decided to trash the python code for the bot and teach myself how to program in Node.js, and with the help of a few dependencies (Discord.js, ytdl-core, soundcloud-scraper, etc.), I developed the bot from scratch over the next month and a half.  After having significantly improved the bot's abilities, I developed a website designated for it, which can be found <a href="https://www.beatbuddybot.com">here</a>.  </p>
+            </div>
+        </div>
+        <!-- Embedded PDF reader for my resume-->
+        <div id="websiteLink">
+            <h2>Website</h2>
+            <div id="websiteLinkDiv">
+                <h5>Dean's List | Spring 2022</h5>
+                <br>
+                <h5>Dean's List | Fall 2021</h5>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
