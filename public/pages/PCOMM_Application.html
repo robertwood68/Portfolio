@@ -18,50 +18,89 @@
   <body>
     <!-- body content for the index page -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="padding: .5%;">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/experience.html">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a class="dropdown-item" href="/BeatBuddy.html" style="color: rgb(0,30,106); font-size: 18px;">
-                                BeatBuddy - Discord Music Bot
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/PCOMM_Application.html" style="color: rgb(0,30,106); font-size: 18px;">
-                                Personalized Commencement Application
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-    <!-- body content for the projects page -->
-    <h1>This is gonna be my page for PCOMM shit</h1>
-    <a href="http://theyorkboys.uk.to:8081/pcomm/_view/login.jsp">
-        Personalized Commencement Application
-    </a>
-    <p>Ram Ranch.jpeg</p>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="/BeatBuddy.html" style="color: rgb(0,30,106); font-size: 18px;">
+                                    BeatBuddy - Discord Music Bot
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/PCOMM_Application.html" style="color: rgb(0,30,106); font-size: 18px;">
+                                    Personalized Commencement Application
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- page header -->
+    <div id="top">
+        <h1>YCP Personalized Commencement Ceremony</h1>
+    </div>
+    <!-- logo and details of the application -->
+    <div id="container">
+        <div id="holder">
+            <!-- Logo for YCP -->
+            <div id="logoDiv">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bsimmons123/YCP_Personalized_Commencement">
+                    <img src="/images/YCPlogo.png">
+                </a>
+            </div>
+            <!-- Holds info for PCOMM-->
+            <div id="info" class="container">
+                <h2>About YCP Personalized Commencement</h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The YCP Personalized Commencement Ceremony application is a full stack web application that consists of a login page, student and advisor portals, and a QR code responsive page for displaying content during the commencement ceremony.  When a user visits the website, they can either login to their respective portal, click a button that will take them to a livestream of the ceremony, or search an exisiting student's name in order to see their content in the event that the user missed the ceremony entirely.
+                </p>
+            </div>
+        </div>
+        <div id="directions">
+            <h5>Student Login:</h5>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If a student logs in, they are sent to their student portal in which they are shown a list of their information such as their name, major, minor, GPA, the content that they have uploaded, and the QR that contains their student ID that they will scan during the ceremony to display their approved content.  From here, the student can either click a button to edit their content or preview their content as it will display during the ceremony.</p>
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit Content:</h5>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the student chooses to edit their content, they can upload their extracurricular activities, an image, and an audio recording of their name that is to be read during the ceremony.  The student is also able to reset their content and start fresh if they choose to.  Once the content is saved, it will show that it has been uploaded on their student portal and that it is awaiting approval by their advisor.</p>
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preview Content:</h5> 
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the student chooses to preview their content while it has not yet been approved by their advisor, they will see only the default content.  However, if their content has been approved, they will see exactly how all of the things that they uploaded will show up during the commencement ceremony.</p>
+            <br>
+            <h5>Advisor Login:</h5>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If an advisor logs in, they are sent to their advisor portal in which they are shown a list of the students assigned to them including each student's name, major, minor, and GPA.  Below this list, the advisor is also provided with the QR codes necessary for ending the ceremony in the even that they are the ones running the commencement ceremony.  From here, the advisor can click on a student's card to view the content that they submitted.  While viewing, if the content is appropriate, the advisor can check a box next to each section of content to approve it, or leave the box blank if they do not approve of it.  Once the content is reviewed, the advisor will hit the submit button to send their selections to the database and update the approval status of each piece of content that the student submitted.</p>
+            <br>
+            <h5>Administrator Login:</h5>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If an administrator logs in, the page that will be streamed for the ceremony is pulled up.  On this page, there is a QR code scanner that students can put their codes up to and scan in order to display their content when it is their turn to walk across the stage.  Once all students have scanned, the administrator will scan two QR codes.  The first will output a list of all students who could not attend and their majors, and the second will output a congratulations message to all of the students who have now graduated from the college.</p>
+        </div>
+    </div>
+    <!-- background of application and link to github repo -->
+    <div id="container2">
+        <!-- Background info-->
+        <div id="background">
+            <div id="backgroundDiv">
+                <h2>Project Background</h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originally, BeatBuddy was developed in December of 2021 as a locally hosted <a href="https://www.python.org/">Python</a> application with simple commands and only had support for YouTube links.  However, in February of 2022, I enrolled in a software engineering class at York College of Pennsylvania in which I was required to complete an "individual project" throughout the semester.  So, I decided to trash the Python code for the bot and teach myself how to program in <a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/">Node.js</a> throughout the development process, and with the help of a few dependencies (<a target="_blank" rel="noopener noreferrer" href="https://discord.js.org/#/">Discord.js</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/ytdl-core">ytdl-core</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/soundcloud-scraper">soundcloud-scraper</a>, etc.), I developed the bot from scratch over the next month and a half.  After having significantly improved the bot's abilities, I developed a website for it while simultaneously teaching myself how to utilize HTML, CSS, and JavaScript, which can be found at <a target="_blank" rel="noopener noreferrer" href="https://www.beatbuddybot.com">www.beatbuddybot.com</a>.  Finally, I decided to deploy the code for the application to a VPS (Virtual Private Server) through <a target="_blank" rel="noopener noreferrer" href="https://www.vultr.com/">Vultr</a> in order to provide the bot with 24/7 uptime.  Though I have finished the semester and made the bot fully functional, I have since added (an am still adding) new features and improvements periodically.</p>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
