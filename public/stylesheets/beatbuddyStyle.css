@@ -40,12 +40,13 @@ a {
   margin-left: 10%;
   margin-right: auto;
   margin-top: 2%;
-  margin-bottom: 0px;
-  padding:2%;
+  padding:3.85%;
+  padding-top: 3.85%;
+  padding-bottom: 0px;
   display: inline-block;
   text-align: center;
   border-radius: 20px 20px 0px 0px;
-  background-color: rgb(213, 213, 213);
+  background-color: rgb(110, 2, 110);
 }
 #container p {
   font-size: 18px;
@@ -57,11 +58,19 @@ a {
   width: 100%;
   margin: auto;
 }
+#holder {
+  width: 100%;
+  padding: 2%;
+  padding-top: 5%;
+  padding-bottom: 0px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgb(213, 213, 213);
+}
 #logoDiv {
   width: 20%;
   margin: auto;
   margin-left: 0px;
-  padding-top: 4%;
+  padding-top: 5%;
   padding-bottom: 4%;
   display: inline-block;
   margin-right: 0px;
@@ -94,6 +103,9 @@ a {
 #info p {
   font-size: 18px;
 }
+#info a {
+  color: rgb(0, 48, 194);
+}
 .row ul li {
   font-size: 18px;
   padding: 1%;
@@ -103,14 +115,15 @@ a {
 #container2 {
   width: 80%;
   margin:auto;
-  margin-top: -2%;
   margin-left: 10%;
   margin-bottom: 5%;
-  padding-bottom: 3%;
+  padding: 1.95%;
+  padding-bottom: 3.85%;
+  padding-top: 0px;
   display: inline-block;
   text-align: center;
   border-radius: 0px 0px 20px 20px;
-  background-color: rgb(213, 213, 213);
+  background-color: rgb(110, 2, 110);
 }
 #container2 p {
   font-size: 18px;
@@ -118,60 +131,27 @@ a {
 }
 #container2 h2 {
   -webkit-text-fill-color: rgb(110, 2, 110);
-  text-align: center;
+  text-align: left;
   width: 100%;
   margin: auto;
+  margin-bottom: 1%;
 }
 #background {
-  width: 45%;
+  width: 95%;
   margin: auto;
-  margin-top: 2%;
-  margin-right: 2.5%;
   display: inline-block;
-  color: white;
 }
 #backgroundDiv {
   width: 100%;
   margin: auto;
-  margin-top: 3%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(110, 2, 110);
   padding: 5%;
+  padding-top: 2%;
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(213, 213, 213);
   font-size: 18px;
   text-align: center;
   overflow-wrap: break-word;
 }
-#websiteLink {
-  width: 45%;
-  margin: auto;
-  margin-top: 2%;
-  margin-left: auto;
-  display: inline-block;
-  color: white;
-}
-#websiteLinkDiv {
-  width: 100%;
-  margin: auto;
-  margin-top: 3%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(110, 2, 110);
-  padding: 5%;
-  font-size: 18px;
-  text-align: center;
-  overflow-wrap: break-word;
-}
-#websiteLink h2 {
-  text-align: center;
-  margin-bottom: 1%;
-}
-#websiteLink h4 {
-  color: rgb(0, 30, 106);
-  width: 90%;
-  margin: auto;
-  border-bottom: 2px solid rgb(0, 30, 106);
-  overflow-wrap: break-word;
-}
-#websiteLink a {
-  color: rgb(0, 30, 106) !important;
-  text-decoration: none;
+#backgroundDiv a {
+  color: rgb(0, 48, 194);
 }
