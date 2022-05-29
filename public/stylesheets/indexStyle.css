@@ -1,73 +1,58 @@
-body {
-  background-color: rgb(250, 245, 241) !important;
-}
-nav {
-  background-color: rgb(0, 30, 106) !important;
-}
-.navbar-nav {
-  float:none !important;
-  margin:0 auto !important;
-  display: flex !important;
-  text-align: center !important;
-}
-.navbar-nav > li {
-  display: inline-block;
-  float: none;
-}
-nav ul li ul li {
-  background-color: rgb(255, 255, 255) !important;
-  
-}
-a {
-  color: #00B7FF;
-  font-size: 18px;
-}
-#top {
-  width: 50%; 
-  margin: auto; 
-  margin-top: 2%;
-  border-bottom: 3px solid rgb(0, 30, 106);
-} 
-#top h1 {
-  -webkit-text-fill-color: rgb(0, 30, 106);
-  text-align: center
-}
-#intro {
-  width: 50%; 
-  margin: auto; 
-  margin-top: 2%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  padding: 2%;
-  overflow-wrap: break-word;
-}
-#intro p {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-}
-#cardHolder {
-  display: flex;
-  width: 100%;
-  height: 350px !important;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-#cards {
-  background-color: rgb(55, 75, 126) !important;
-  display: inline-block !important;
-  max-width: 16rem !important;
-  min-width: 10rem !important;
-  height: inherit !important;
-  margin: auto !important;
-  text-align: center !important;
-}
-@media only screen and (max-width: 1400px) {
+@media  only screen and (min-width : 768px) {
+  body {
+    background-color: rgb(250, 245, 241) !important;
+  }
+  nav {
+    background-color: rgb(0, 30, 106) !important;
+  }
+  .navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: flex !important;
+    text-align: center !important;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li ul li {
+    background-color: rgb(255, 255, 255) !important;
+    
+  }
+  a {
+    color: #00B7FF;
+    font-size: 18px;
+  }
+  #top {
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2%;
+    border-bottom: 3px solid rgb(0, 30, 106);
+  } 
+  #top h1 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center
+  }
+  #intro {
+    width: 90%; 
+    margin: auto; 
+    margin-top: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-wrap: break-word;
+  }
+  #intro p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
   #cardHolder {
     display: flex;
     width: 100%;
-    height: 450px !important;
+    height: 350px !important;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -81,105 +66,251 @@ a {
     margin: auto !important;
     text-align: center !important;
   }
+  @media only screen and (max-width: 1400px) {
+    #cardHolder {
+      display: flex;
+      width: 100%;
+      height: 450px !important;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #cards {
+      background-color: rgb(55, 75, 126) !important;
+      display: inline-block !important;
+      max-width: 16rem !important;
+      min-width: 10rem !important;
+      height: inherit !important;
+      margin: auto !important;
+      text-align: center !important;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    #cardHolder {
+      display: flex;
+      width: 100%;
+      height: 500px !important;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #cards {
+      background-color: rgb(55, 75, 126) !important;
+      display: inline-block !important;
+      max-width: 16rem !important;
+      min-width: 10rem !important;
+      height: inherit !important;
+      margin: auto !important;
+      text-align: center !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #cardHolder {
+      display: flex;
+      width: 100%;
+      height: 550px !important;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #cards {
+      background-color: rgb(55, 75, 126) !important;
+      display: inline-block !important;
+      max-width: 16rem !important;
+      height: inherit !important;
+      margin: auto !important;
+      text-align: center !important;
+    }
+  }
+  #cardHeader {
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+  #cardP {
+    font-size: 18px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  #cardButton {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #aboutDiv {
+    width: auto; 
+    height: inherit !important;
+    margin: auto; 
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 2%;
+    float:left;
+  } 
+  #experienceDiv {
+    width: auto; 
+    height: inherit !important;
+    margin: auto; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    float:left;
+  }
+  #contactDiv {
+    width: auto; 
+    height: inherit !important;
+    margin: auto; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    float:left;
+  }
+  #projectsDiv {
+    width: auto; 
+    height: inherit !important;
+    margin: auto; 
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 2%;
+    float:left;
+  }
+  #lastDiv {
+    width: 90%; 
+    margin: auto; 
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #lastDiv p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    padding: 2%;
+  }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width : 768px) {
+  body {
+    background-color: rgb(250, 245, 241) !important;
+  }
+  nav {
+    background-color: rgb(0, 30, 106) !important;
+  }
+  .navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: flex !important;
+    text-align: center !important;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li ul li {
+    background-color: rgb(255, 255, 255) !important;
+    
+  }
+  a {
+    color: #00B7FF;
+    font-size: 18px;
+  }
+  #top {
+    width: 80%; 
+    margin: auto; 
+    margin-top: 5%;
+    border-bottom: 3px solid rgb(0, 30, 106);
+  } 
+  #top h1 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    font-size: 22px;
+  }
+  #intro {
+    width: 90%; 
+    margin: auto; 
+    margin-top: 2%;
+    margin-bottom: 7%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-wrap: break-word;
+  }
+  #intro p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
   #cardHolder {
-    display: flex;
-    width: 100%;
-    height: 500px !important;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
   #cards {
     background-color: rgb(55, 75, 126) !important;
-    display: inline-block !important;
-    max-width: 16rem !important;
-    min-width: 10rem !important;
-    height: inherit !important;
+    border-radius: 20px 20px 20px 20px;
+    height: 50% !important;
     margin: auto !important;
     text-align: center !important;
   }
-}
-@media only screen and (max-width: 600px) {
-  #cardHolder {
-    display: flex;
+  #cardHeader {
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+  #cardP {
+    font-size: 12px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  #cardButton {
     width: 100%;
-    height: 550px !important;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
+  }
+  #aboutDiv {
+    width: auto; 
+    margin: auto; 
+    margin-top: 5%;
+  } 
+  #experienceDiv {
+    width: auto; 
+    margin: auto; 
+    margin-top: 5%;
+  }
+  #contactDiv {
+    width: auto; 
+    margin: auto; 
+    margin-top: 5%;
+  }
+  #projectsDiv {
+    width: auto; 
+    margin: auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #lastDiv {
+    width: 90%; 
+    margin: auto; 
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #lastDiv p {
     text-align: center;
-  }
-  #cards {
-    background-color: rgb(55, 75, 126) !important;
-    display: inline-block !important;
-    max-width: 16rem !important;
-    height: inherit !important;
-    margin: auto !important;
-    text-align: center !important;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    margin-top: 7%;
   }
 }
-#cardHeader {
-  text-align: center;
-  border-bottom: 2px solid white;
-}
-#cardP {
-  font-size: 18px;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  margin-top: 5%;
-}
-#cardButton {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#aboutDiv {
-  width: auto; 
-  height: inherit !important;
-  margin: auto; 
-  margin-left: auto;
-  margin-right: 2%;
-  margin-top: 2%;
-} 
-#experienceDiv {
-  width: auto; 
-  height: inherit !important;
-  margin: auto; 
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-#contactDiv {
-  width: auto; 
-  height: inherit !important;
-  margin: auto; 
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-#projectsDiv {
-  width: auto; 
-  height: inherit !important;
-  margin: auto; 
-  margin-left: 2%;
-  margin-right: auto;
-  margin-top: 2%;
-}
-#lastDiv {
-  width: 50%; 
-  margin: auto; 
-  margin-top: 2%;
-  margin-bottom: 5%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  overflow-wrap: break-word;
-}
-#lastDiv p {
-  text-align: center;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 10%;
-  padding: 2%;
-}
+

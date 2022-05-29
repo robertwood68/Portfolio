@@ -1,78 +1,181 @@
-body {
-  background-color: rgb(250, 245, 241) !important;
+@media  only screen and (min-width : 768px) {
+  body {
+    background-color: rgb(250, 245, 241) !important;
+  }
+  nav {
+    background-color: rgb(0, 30, 106) !important;
+  }
+  .navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: flex !important;
+    text-align: center !important;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li ul li {
+    background-color: rgb(255, 255, 255) !important;
+    
+  }
+  a {
+    color: #00B7FF;
+    font-size: 18px;
+  }
+  #top {
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2%;
+    text-align: center;
+  } 
+  #top h1 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid rgb(0, 30, 106);
+  }
+  #c1 {
+    width: 50%;
+    margin:auto;
+    margin-top: 2%;
+    text-align: center;
+  }
+  #c1 p {
+    font-size: 18px;
+    text-align: left;
+  }
+  #c1 h4 {
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+  #c1 img {
+    border: 4px solid gray;
+    width: 50%;
+  }
+  #information {
+    background-color: rgb(213, 213, 213);
+    border: 2px solid rgb(0, 30, 106);
+    border-radius: 20px 20px 20px 20px;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: 18px;
+  }
+  #information h4 {
+    color: rgb(0, 30, 106);
+  }
+  #alert {
+    background-color: rgb(213, 213, 213);
+    border: 2px solid rgb(0, 30, 106);
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+  }
+  #confetti {
+    width: 200px; 
+    height: 100px; 
+    color: black; 
+    font-size: 24px; 
+    background: url(/images/confetti.jpg) no-repeat; 
+    margin-bottom: 10%; 
+    -webkit-text-stroke: 1px black;
+  }
 }
-nav {
-  background-color: rgb(0, 30, 106) !important;
-}
-.navbar-nav {
-  float:none !important;
-  margin:0 auto !important;
-  display: flex !important;
-  text-align: center !important;
-}
-.navbar-nav > li {
-  display: inline-block;
-  float: none;
-}
-nav ul li ul li {
-  background-color: rgb(255, 255, 255) !important;
-  
-}
-a {
-  color: #00B7FF;
-  font-size: 18px;
-}
-#top {
-  width: 50%; 
-  margin: auto; 
-  margin-top: 2%;
-  text-align: center;
-} 
-#top h1 {
-  -webkit-text-fill-color: rgb(0, 30, 106);
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  border-bottom: 3px solid rgb(0, 30, 106);
-}
-#c1 {
-  width: 50%;
-  margin:auto;
-  margin-top: 2%;
-  text-align: center;
-}
-#c1 p {
-  font-size: 18px;
-  text-align: left;
-}
-#c1 h4 {
-  margin-top: 2%;
-  text-align: center;
-  color: rgb(0, 0, 0)
-}
-#c1 img {
-  border: 4px solid gray;
-  width: 50%;
-
-}
-#information {
-  background-color: rgb(208, 239, 255);
-  padding: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  margin-bottom: 2%;
-  text-align: left;
-  font-size: 18px;
-}
-#alert {
-  background-color: rgb(208, 239, 255);
-}
-#confetti {
-  width: 200px; 
-  height: 100px; 
-  color: black; 
-  font-size: 24px; 
-  background: url(/images/confetti.jpg) no-repeat; 
-  margin-bottom: 10%; 
-  -webkit-text-stroke: 1px black;
+@media  only screen and (max-width : 768px) {
+  body {
+    background-color: rgb(250, 245, 241) !important;
+  }
+  nav {
+    background-color: rgb(0, 30, 106) !important;
+  }
+  .navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: flex !important;
+    text-align: center !important;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li ul li {
+    background-color: rgb(255, 255, 255) !important;
+    
+  }
+  a {
+    color: #00B7FF;
+    font-size: 18px;
+  }
+  #top {
+    width: 100%; 
+    margin: auto; 
+    margin-top: 2%;
+    text-align: center;
+  } 
+  #top h1 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    width: 80%;
+    font-size: 22px;
+    margin: auto;
+    border-bottom: 3px solid rgb(0, 30, 106);
+  }
+  #c1 {
+    width: 90%;
+    margin:auto;
+    margin-top: 5%;
+    text-align: center;
+  }
+  #c1 p {
+    font-size: 12px;
+    text-align: left;
+  }
+  #c1 h4 {
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  #c1 img {
+    border: 4px solid gray;
+    width: 70%;
+  }
+  #information {
+    background-color: rgb(213, 213, 213);
+    border: 2px solid rgb(0, 30, 106);
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  #information h4 {
+    color: rgb(0, 30, 106);
+  }
+  #alert {
+    background-color: rgb(213, 213, 213);
+    font-size: 12px;
+    border: 2px solid rgb(0, 30, 106);
+    margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+  }
+  #confetti {
+    width: 40%; 
+    height: 50%; 
+    color: rgb(0, 30, 106); 
+    font-size: 22px; 
+    background: url(/images/confetti.jpg) no-repeat 50%; 
+    border: solid 2px rgb(0, 30, 106);
+    margin-bottom: 10%; 
+    -webkit-text-stroke: 1px rgb(0, 30, 106);
+  }
 }

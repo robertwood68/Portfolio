@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 body {
   background-color: rgb(250, 245, 241) !important;
 }
@@ -62,6 +63,7 @@ a {
 #iframe {
   margin-top: 1%;
   border: 5px solid rgb(0, 30, 106);
+  height: 500px;
 }
 #languages {
   width: 45%;
@@ -167,6 +169,9 @@ a {
   text-align: center;
   overflow-wrap: break-word;
 }
+#awardsDiv h5 {
+  color: rgb(0, 30, 106);
+}
 #Projects {
   width: 45%;
   margin: auto;
@@ -215,4 +220,241 @@ a {
 #groupProjects a {
   color: rgb(0, 30, 106) !important;
   text-decoration: none;
+}
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(250, 245, 241) !important;
+  }
+  nav {
+    background-color: rgb(0, 30, 106) !important;
+  }
+  .navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: flex !important;
+    text-align: center !important;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li ul li {
+    background-color: rgb(255, 255, 255) !important;
+    
+  }
+  a {
+    color: rgb(0, 136, 255);
+    font-size: 18px;
+  }
+  #top {
+    width: 80%; 
+    margin: auto; 
+    margin-top: 5%;
+    text-align: center;
+  } 
+  #top h1 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    border-bottom: 3px solid rgb(0, 30, 106);
+  }
+  #container {
+    width: 100%;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: inline-block;
+    text-align: center;
+  }
+  #container p {
+    font-size: 18px;
+    text-align: left;
+  }
+  #container h2 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+  }
+  #resumeDiv {
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+  }
+  #iframe {
+    margin-top: 1%;
+    border: 5px solid rgb(0, 30, 106);
+    height: 500px;
+  }
+  #languages {
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #languages h2 {
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  #languages h4 {
+    color: rgb(0, 30, 106);
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid rgb(0, 30, 106);
+    overflow-wrap: break-word;
+    font-size: 14px;
+    margin-bottom: 5%;
+  }
+  #languages p {
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .row ul li {
+    font-size: 12px;
+    padding: 1%;
+    text-align: left;
+    margin-top: 2%;
+  }
+  #backend {
+    width: 45%;
+    margin: 0;
+    margin-right: 2%;
+    margin-left: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #frontend {
+    width: 45%;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #dbms {
+    width: 45%;
+    margin: 0;
+    margin-right: 2%;
+    margin-left: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #frameworks {
+    width: 45%;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #container2 {
+    width: 100%;
+    margin:auto;
+    margin-bottom: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+  #container2 p {
+    font-size: 12px;
+    text-align: left;
+  }
+  #container2 h2 {
+    -webkit-text-fill-color: rgb(0, 30, 106);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+  }
+  #awards {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 4%;
+  }
+  #awardsDiv {
+    width: 85%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    padding: 2%;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  #awardsDiv h5 {
+    font-size: 14px;
+    color: rgb(0, 30, 106);
+  }
+  #Projects {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #Projects h2 {
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 20px;
+  }
+  #Projects h4 {
+    color: rgb(0, 30, 106);
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid rgb(0, 30, 106);
+    overflow-wrap: break-word;
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  #individualProjects {
+    width: 45%;
+    margin: 0;
+    margin-right: 2%;
+    margin-left: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #individualProjects a {
+    color: rgb(0, 30, 106) !important;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #groupProjects {
+    width: 45%;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #groupProjects a {
+    color: rgb(0, 30, 106) !important;
+    text-decoration: none;
+    font-size: 12px;
+  }
 }
