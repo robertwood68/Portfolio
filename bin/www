@@ -10,13 +10,13 @@ const http = require('http');
 /**
  * Get port from environment and store in Express.
  */
-const port = normalizePort(process.env.PORT || '8000');
+const port = normalizePort(process.env.PORT || '2048');
 app.set('port', port);
 
 /**
  * Create HTTPS server.
  */
-const server = http.createServer(options, app);
+const server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
@@ -78,151 +78,3 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
-
-
-/**
-                                                                app.js
-
-const createError = require('http-errors');
-const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
-
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-const res = require('express/lib/response');
-
-const app = express();
-
-var cons = require('consolidate');
-
-// view engine setup
-app.engine('html', cons.swig)
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'html');
-
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-
-// imports for links such as /projects.html and /indexStyle.css
-app.use(express.static(path.join(__dirname, 'public/images')));
-app.use(express.static(path.join(__dirname, 'public/pages')));
-app.use(express.static(path.join(__dirname, 'public/javascripts')));
-app.use(express.static(path.join(__dirname, 'public/stylesheets')));
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
-
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
-});
-
-module.exports = app;
-
- */
-
-/**
-                                                                www
-#!/usr/bin/env node
-
-// /**
-//  * Module dependencies.
-//  */
-// const app = require('../app');
-// const debug = require('debug')('resume-web-application:server');
-// const http = require('http');
-// const https = require('https');
-// const fs = require('fs');
-
-// /**
-//  * Get port from environment and store in Express.
-//  */
-// const port = normalizePort(process.env.PORT || '443');
-// app.set('port', port);
-// const options = {
-// 	key: fs.readFileSync('/etc/letsencrypt/live/robertwood.dev/privkey.pem', 'utf8'),
-// 	cert: fs.readFileSync('/etc/letsencrypt/live/robertwood.dev/cert.pem', 'utf8'),
-// 	ca: fs.readFileSync('/etc/letsencrypt/live/robertwood.dev/fullchain.pem', 'utf8')
-// };
-
-// /**
-//  * Create HTTPS server.
-//  */
-// const server = https.createServer(options, app);
-
-// /**
-//  * Listen on provided port, on all network interfaces.
-//  */
-// server.listen(port);
-// server.on('error', onError);
-// server.on('listening', onListening);
-
-// /**
-//  * Normalize a port into a number, string, or false.
-//  */
-// function normalizePort(val) {
-//   const port = parseInt(val, 10);
-//   if (isNaN(port)) {
-//     // named pipe
-//     return val;
-//   }
-//   if (port >= 0) {
-//     // port number
-//     return port;
-//   }
-//   return false;
-// }
-
-// /**
-//  * Event listener for HTTP server "error" event.
-//  */
-// function onError(error) {
-//   if (error.syscall !== 'listen') {
-//     throw error;
-//   }
-
-//   let bind = typeof port === 'string'
-//     ? 'Pipe ' + port
-//     : 'Port ' + port;
-
-//   // handle specific listen errors with friendly messages
-//   switch (error.code) {
-//     case 'EACCES':
-//       console.error(bind + ' requires elevated privileges');
-//       process.exit(1);
-//       break;
-//     case 'EADDRINUSE':
-//       console.error(bind + ' is already in use');
-//       process.exit(1);
-//       break;
-//     default:
-//       throw error;
-//   }
-// }
-
-// /**
-//  * Event listener for HTTP server "listening" event.
-//  */
-// function onListening() {
-//   const addr = server.address();
-//   let bind = typeof addr === 'string'
-//     ? 'pipe ' + addr
-//     : 'port ' + addr.port;
-//   debug('Listening on ' + bind);
-// }
