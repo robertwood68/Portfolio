@@ -59,7 +59,7 @@ a {
 #iframe {
   margin-top: 1%;
   border: 5px solid rgb(0, 30, 106);
-  height: 600px;
+  height: 950px;
 }
 #languages {
   width: 45%;
@@ -102,39 +102,7 @@ a {
   background-color: rgb(213, 213, 213);
   overflow-wrap: break-word;
 }
-#assembly {
-  width: 45%;
-  margin: 2% 2% 0 auto;
-  padding: 2%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  overflow-wrap: break-word;
-}
-#ides {
-  width: 45%;
-  margin: 2% auto 0 2%;
-  padding: 2%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  overflow-wrap: break-word;
-}
-#dbms {
-  width: 45%;
-  margin: 2% 2% 0 auto;
-  padding: 2%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  overflow-wrap: break-word;
-}
 #frameworks {
-  width: 45%;
-  margin: 2% auto 0 2%;
-  padding: 2%;
-  border-radius: 20px 20px 20px 20px;
-  background-color: rgb(213, 213, 213);
-  overflow-wrap: break-word;
-}
-#cloud {
   width: 45%;
   margin: 2% 2% 0 auto;
   padding: 2%;
@@ -150,45 +118,68 @@ a {
   background-color: rgb(213, 213, 213);
   overflow-wrap: break-word;
 }
-#container2 {
-  width: 100%;
-  margin: auto auto 5%;
-  display: inline-block;
-  text-align: center;
+#dbms {
+  width: 45%;
+  margin: 2% 2% 0 auto;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
-#container2 p {
-  font-size: 18px;
-  text-align: left;
+#assembly {
+  width: 45%;
+  margin: 2% auto 0 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
-#container2 h2 {
-  -webkit-text-fill-color: rgb(0, 30, 106);
-  text-align: center;
-  width: 100%;
-  margin: auto;
+#cloud {
+  width: 45%;
+  margin: 2% 2% 0 auto;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#ides {
+  width: 45%;
+  margin: 2% auto 0 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
 }
 #awards {
-  width: 45%;
+  width: 100%;
   display: inline-block;
-  margin: auto 2% auto auto;
+  margin: 3% 2% auto auto;
 }
 #awardsDiv {
   width: 80%;
   margin: 3% auto auto;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
-  padding: 2% 10% 2% 22%;
+  padding: 2% 0 2% 0;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   overflow-wrap: break-word;
+}
+#awardsDiv ul {
+  margin-top: 2%;
+  margin-left: -3%;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
 }
 #awardsDiv h5 {
   color: rgb(0, 30, 106);
 }
 #Projects {
-  width: 45%;
+  margin-top: 3%;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
-  margin: 0 auto auto 2%;
 }
 #Projects h2 {
   text-align: center;
@@ -341,7 +332,7 @@ a {
     background-color: rgb(213, 213, 213);
     overflow-wrap: break-word;
   }
-  #ides {
+  #frameworks {
     width: 45%;
     margin: 2% 2% 0 auto;
     padding: 2%;
@@ -365,7 +356,23 @@ a {
     background-color: rgb(213, 213, 213);
     overflow-wrap: break-word;
   }
-  #frameworks {
+  #assembly {
+    width: 45%;
+    margin: 2% auto 0 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #cloud {
+    width: 45%;
+    margin: 2% 2% 0 auto;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #ides {
     width: 45%;
     margin: 2% auto 0 2%;
     padding: 2%;
@@ -400,9 +407,16 @@ a {
     margin: 3% auto auto;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
-    padding: 2%;
+    padding: 2% 0 2% 0;
     text-align: center;
     overflow-wrap: break-word;
+  }
+  #awardsDiv ul {
+    margin-top: 4%;
+    margin-left: -5%;
+    display: inline-block;
+    text-align: left;
+    list-style: none;
   }
   #awardsDiv h5 {
     font-size: 14px;
@@ -453,8 +467,5 @@ a {
     text-decoration: none;
     font-size: 12px;
   }
-  .tab {
-    display: inline-block;
-    margin-left: 4em;
-  }
+
 }
