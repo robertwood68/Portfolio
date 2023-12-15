@@ -24,9 +24,8 @@
     font-size: 18px;
   }
   #top {
-    width: 50%; 
-    margin: auto; 
-    margin-top: 2%;
+    width: 50%;
+    margin: 2% auto auto;
     border-bottom: 3px solid rgb(0, 30, 106);
   } 
   #top h1 {
@@ -34,14 +33,11 @@
     text-align: center
   }
   #intro {
-    width: 90%; 
-    margin: auto; 
-    margin-top: 2%;
+    width: 90%;
+    margin: 2% auto auto;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
-    padding: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2% 5%;
     overflow-wrap: break-word;
   }
   #intro p {
@@ -57,7 +53,7 @@
     margin-right: auto;
     text-align: center;
   }
-  #cards {
+  .cards {
     background-color: rgb(55, 75, 126) !important;
     display: inline-block !important;
     max-width: 16rem !important;
@@ -75,7 +71,7 @@
       margin-right: auto;
       text-align: center;
     }
-    #cards {
+    .cards {
       background-color: rgb(55, 75, 126) !important;
       display: inline-block !important;
       max-width: 16rem !important;
@@ -94,7 +90,7 @@
       margin-right: auto;
       text-align: center;
     }
-    #cards {
+    .cards {
       background-color: rgb(55, 75, 126) !important;
       display: inline-block !important;
       max-width: 16rem !important;
@@ -113,7 +109,7 @@
       margin-right: auto;
       text-align: center;
     }
-    #cards {
+    .cards {
       background-color: rgb(55, 75, 126) !important;
       display: inline-block !important;
       max-width: 16rem !important;
@@ -122,63 +118,48 @@
       text-align: center !important;
     }
   }
-  #cardHeader {
+  .cardHeader {
     text-align: center;
     border-bottom: 2px solid white;
   }
-  #cardP {
+  .cardP {
     font-size: 18px;
     text-align: center;
     width: 75%;
-    margin: auto;
-    margin-top: 5%;
+    margin: 5% auto auto;
   }
-  #cardButton {
+  .cardButton {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
   #aboutDiv {
-    width: auto; 
+    width: auto;
     height: inherit !important;
-    margin: auto; 
-    margin-left: auto;
-    margin-right: 2%;
-    margin-top: 2%;
+    margin: 2% 2% auto auto;
     float:left;
-  } 
+  }
   #experienceDiv {
-    width: auto; 
+    width: auto;
     height: inherit !important;
-    margin: auto; 
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
+    margin: 2% 2% auto;
     float:left;
   }
   #contactDiv {
-    width: auto; 
+    width: auto;
     height: inherit !important;
-    margin: auto; 
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
+    margin: 2% 2% auto;
     float:left;
   }
   #projectsDiv {
-    width: auto; 
+    width: auto;
     height: inherit !important;
-    margin: auto; 
-    margin-left: 2%;
-    margin-right: auto;
-    margin-top: 2%;
+    margin: 2% auto auto 2%;
     float:left;
   }
   #lastDiv {
-    width: 90%; 
-    margin: auto; 
-    margin-top: 0%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 0 auto 5%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
     overflow-wrap: break-word;
@@ -210,33 +191,28 @@
   }
   nav ul li ul li {
     background-color: rgb(255, 255, 255) !important;
-    
+
   }
   a {
     color: #00B7FF;
     font-size: 18px;
   }
   #top {
-    width: 80%; 
-    margin: auto; 
-    margin-top: 5%;
+    width: 80%;
+    margin: 5% auto auto;
     border-bottom: 3px solid rgb(0, 30, 106);
-  } 
+  }
   #top h1 {
     -webkit-text-fill-color: rgb(0, 30, 106);
     text-align: center;
     font-size: 22px;
   }
   #intro {
-    width: 90%; 
-    margin: auto; 
-    margin-top: 2%;
-    margin-bottom: 7%;
+    width: 90%;
+    margin: 2% auto 7%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
-    padding: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2% 5%;
     overflow-wrap: break-word;
   }
   #intro p {
@@ -250,57 +226,48 @@
     margin-right: auto;
     text-align: center;
   }
-  #cards {
+  .cards {
     background-color: rgb(55, 75, 126) !important;
     border-radius: 20px 20px 20px 20px;
     height: 50% !important;
     margin: auto !important;
     text-align: center !important;
   }
-  #cardHeader {
+  .cardHeader {
     text-align: center;
     border-bottom: 2px solid white;
   }
-  #cardP {
+  .cardP {
     font-size: 12px;
     text-align: center;
     width: 75%;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    margin: 2% auto 3%;
   }
-  #cardButton {
+  .cardButton {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size: 14px;
   }
   #aboutDiv {
-    width: auto; 
-    margin: auto; 
-    margin-top: 5%;
+    width: auto;
+    margin: 5% auto auto;
   } 
   #experienceDiv {
-    width: auto; 
-    margin: auto; 
-    margin-top: 5%;
+    width: auto;
+    margin: 5% auto auto;
   }
   #contactDiv {
-    width: auto; 
-    margin: auto; 
-    margin-top: 5%;
+    width: auto;
+    margin: 5% auto auto;
   }
   #projectsDiv {
-    width: auto; 
-    margin: auto; 
-    margin-top: 5%;
-    margin-bottom: 5%;
+    width: auto;
+    margin: 5% auto;
   }
   #lastDiv {
-    width: 90%; 
-    margin: auto; 
-    margin-top: 0%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 0 auto 5%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
     overflow-wrap: break-word;

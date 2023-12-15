@@ -24,9 +24,8 @@ a {
   font-size: 18px;
 }
 #top {
-  width: 50%; 
-  margin: auto; 
-  margin-top: 2%;
+  width: 50%;
+  margin: 2% auto auto;
   text-align: center;
 } 
 #top h1 {
@@ -38,9 +37,7 @@ a {
 }
 #container {
   width: 100%;
-  margin:auto;
-  margin-top: 1%;
-  margin-bottom: 2%;
+  margin: 1% auto 2%;
   display: inline-block;
   text-align: center;
 }
@@ -56,21 +53,19 @@ a {
 }
 #resumeDiv {
   width: 45%;
-  margin: auto;
   display: inline-block;
-  margin-right: 2%;
+  margin: auto 2% auto auto;
 }
 #iframe {
   margin-top: 1%;
   border: 5px solid rgb(0, 30, 106);
-  height: 500px;
+  height: 600px;
 }
 #languages {
   width: 45%;
-  margin: auto;
   display: inline-block;
   vertical-align: top;
-  margin-left: 2%;
+  margin: auto auto auto 2%;
 }
 #languages h2 {
   text-align: center;
@@ -93,10 +88,7 @@ a {
 }
 #backend {
   width: 45%;
-  margin: 0;
-  margin-right: 2%;
-  margin-left: auto;
-  margin-top: 2%;
+  margin: 2% 2% 0 auto;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -104,10 +96,23 @@ a {
 }
 #frontend {
   width: 45%;
-  margin: 0;
-  margin-left: 2%;
-  margin-right: auto;
-  margin-top: 2%;
+  margin: 2% auto 0 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#assembly {
+  width: 45%;
+  margin: 2% 2% 0 auto;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#ides {
+  width: 45%;
+  margin: 2% auto 0 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -115,10 +120,7 @@ a {
 }
 #dbms {
   width: 45%;
-  margin: 0;
-  margin-right: 2%;
-  margin-left: auto;
-  margin-top: 2%;
+  margin: 2% 2% 0 auto;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -126,10 +128,23 @@ a {
 }
 #frameworks {
   width: 45%;
-  margin: 0;
-  margin-left: 2%;
-  margin-right: auto;
-  margin-top: 2%;
+  margin: 2% auto 0 2%;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#cloud {
+  width: 45%;
+  margin: 2% 2% 0 auto;
+  padding: 2%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(213, 213, 213);
+  overflow-wrap: break-word;
+}
+#tools {
+  width: 45%;
+  margin: 2% auto 0 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -137,8 +152,7 @@ a {
 }
 #container2 {
   width: 100%;
-  margin:auto;
-  margin-bottom: 5%;
+  margin: auto auto 5%;
   display: inline-block;
   text-align: center;
 }
@@ -154,19 +168,17 @@ a {
 }
 #awards {
   width: 45%;
-  margin: auto;
   display: inline-block;
-  margin-right: 2%;
+  margin: auto 2% auto auto;
 }
 #awardsDiv {
   width: 80%;
-  margin: auto;
-  margin-top: 3%;
+  margin: 3% auto auto;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
-  padding: 2%;
+  padding: 2% 10% 2% 22%;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   overflow-wrap: break-word;
 }
 #awardsDiv h5 {
@@ -174,11 +186,9 @@ a {
 }
 #Projects {
   width: 45%;
-  margin: auto;
-  margin-top: 0px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 2%;
+  margin: 0 auto auto 2%;
 }
 #Projects h2 {
   text-align: center;
@@ -193,10 +203,7 @@ a {
 }
 #individualProjects {
   width: 45%;
-  margin: 0;
-  margin-right: 2%;
-  margin-left: auto;
-  margin-top: 2%;
+  margin: 2% 2% 0 auto;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -208,10 +215,7 @@ a {
 }
 #groupProjects {
   width: 45%;
-  margin: 0;
-  margin-left: 2%;
-  margin-right: auto;
-  margin-top: 2%;
+  margin: 2% auto 0 2%;
   padding: 2%;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(213, 213, 213);
@@ -220,6 +224,10 @@ a {
 #groupProjects a {
   color: rgb(0, 30, 106) !important;
   text-decoration: none;
+}
+.tab {
+  display: inline-block;
+  margin-left: 4em;
 }
 }
 @media only screen and (max-width: 768px) {
@@ -248,9 +256,8 @@ a {
     font-size: 18px;
   }
   #top {
-    width: 80%; 
-    margin: auto; 
-    margin-top: 5%;
+    width: 80%;
+    margin: 5% auto auto;
     text-align: center;
   } 
   #top h1 {
@@ -263,9 +270,7 @@ a {
   }
   #container {
     width: 100%;
-    margin:auto;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin: 5% auto 2%;
     display: inline-block;
     text-align: center;
   }
@@ -305,11 +310,10 @@ a {
   #languages h4 {
     color: rgb(0, 30, 106);
     width: 90%;
-    margin: auto;
     border-bottom: 2px solid rgb(0, 30, 106);
     overflow-wrap: break-word;
     font-size: 14px;
-    margin-bottom: 5%;
+    margin: auto auto 5%;
   }
   #languages p {
     text-decoration: underline;
@@ -323,10 +327,7 @@ a {
   }
   #backend {
     width: 45%;
-    margin: 0;
-    margin-right: 2%;
-    margin-left: auto;
-    margin-top: 2%;
+    margin: 2% 2% 0 auto;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -334,10 +335,23 @@ a {
   }
   #frontend {
     width: 45%;
-    margin: 0;
-    margin-left: 2%;
-    margin-right: auto;
-    margin-top: 2%;
+    margin: 2% auto 0 2%;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #ides {
+    width: 45%;
+    margin: 2% 2% 0 auto;
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(213, 213, 213);
+    overflow-wrap: break-word;
+  }
+  #tools {
+    width: 45%;
+    margin: 2% auto 0 2%;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -345,10 +359,7 @@ a {
   }
   #dbms {
     width: 45%;
-    margin: 0;
-    margin-right: 2%;
-    margin-left: auto;
-    margin-top: 2%;
+    margin: 2% 2% 0 auto;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -356,10 +367,7 @@ a {
   }
   #frameworks {
     width: 45%;
-    margin: 0;
-    margin-left: 2%;
-    margin-right: auto;
-    margin-top: 2%;
+    margin: 2% auto 0 2%;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -367,8 +375,7 @@ a {
   }
   #container2 {
     width: 100%;
-    margin:auto;
-    margin-bottom: 5%;
+    margin: auto auto 5%;
     display: inline-block;
     text-align: center;
   }
@@ -385,15 +392,12 @@ a {
   }
   #awards {
     width: 100%;
-    margin: auto;
     display: inline-block;
-    margin-right: 2%;
-    margin-top: 4%;
+    margin: 4% 2% auto auto;
   }
   #awardsDiv {
     width: 85%;
-    margin: auto;
-    margin-top: 3%;
+    margin: 3% auto auto;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
     padding: 2%;
@@ -406,8 +410,7 @@ a {
   }
   #Projects {
     width: 90%;
-    margin: auto;
-    margin-top: 5%;
+    margin: 5% auto auto;
     display: inline-block;
     vertical-align: top;
   }
@@ -419,18 +422,14 @@ a {
   #Projects h4 {
     color: rgb(0, 30, 106);
     width: 90%;
-    margin: auto;
     border-bottom: 2px solid rgb(0, 30, 106);
     overflow-wrap: break-word;
     font-size: 16px;
-    margin-bottom: 5%;
+    margin: auto auto 5%;
   }
   #individualProjects {
     width: 45%;
-    margin: 0;
-    margin-right: 2%;
-    margin-left: auto;
-    margin-top: 2%;
+    margin: 2% 2% 0 auto;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -443,10 +442,7 @@ a {
   }
   #groupProjects {
     width: 45%;
-    margin: 0;
-    margin-left: 2%;
-    margin-right: auto;
-    margin-top: 2%;
+    margin: 2% auto 0 2%;
     padding: 2%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(213, 213, 213);
@@ -456,5 +452,9 @@ a {
     color: rgb(0, 30, 106) !important;
     text-decoration: none;
     font-size: 12px;
+  }
+  .tab {
+    display: inline-block;
+    margin-left: 4em;
   }
 }
