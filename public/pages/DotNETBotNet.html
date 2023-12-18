@@ -86,7 +86,52 @@
         </div>
         <div id="info" class="container">
             <h2>About .NETBotNet</h2>
-            <p>Information Here</p>
+            <p>
+                <a href="https://github.com/YCPHacks2023-Botnet">.NETBotNet</a> is a botnet that was created for a Hackathon competition in the Fall of 2023.  The project consists
+                of three pieces: a C2 control server, a bot program (referred to as workers), and a web hosted user interface.
+                The C2 server was developed using the .NET Core framework, along with the use of the ASP.NET framework
+                for the development of the API, and it handles all requests made from the user interface and distributes them to the
+                desired workers. The bot program was developed in C++, has functionality for both Windows
+                and Linux based machines, and performs all tasks received from the C2 server. Finally, the web hosted user interface was developed using the Vue.js framework and is
+                where all requests are made to the C2 server. As of now, the botnet can solely send out DDOS attacks to specified machines,
+                or all machines that are connected to the server through their worker, and the team behind .NETBotNet have no plans to continue
+                any further development of the project.  Below, you can find some screenshots of the user interface to get a better idea of how the
+                botnet is managed:
+            </p>
+        </div>
+    </div>
+</div>
+<div id="container1">
+    <div id="images">
+        <div id="imagesDiv">
+            <div class="imgCap left">
+                <h3>Landing Page</h3>
+                <a href="/images/botnet/welcome.png" data-lightbox="welcome"><img src="/images/botnet/welcome.png"></a>
+            </div>
+            <div class="imgCap right">
+                <h3>Login Modal</h3>
+                <a href="/images/botnet/login.png" data-lightbox="login"><img src="/images/botnet/login.png"></a>
+            </div>
+            <div class="imgCap left">
+                <h3>Home Page</h3>
+                <a href="/images/botnet/home.png" data-lightbox="home"><img src="/images/botnet/home.png"></a>
+            </div>
+            <div class="imgCap right">
+                <h3>Zoomed Map</h3>
+                <a href="/images/botnet/zoomed.png" data-lightbox="zoomed"><img src="/images/botnet/zoomed.png"></a>
+            </div>
+            <div class="imgCap left">
+                <h3>Tasks Modal</h3>
+                <a href="/images/botnet/addtasks.png" data-lightbox="addtasks"><img src="/images/botnet/addtasks.png"></a>
+            </div>
+            <div class="imgCap right">
+                <h3>Completed/Queued tasks</h3>
+                <a href="/images/botnet/tasks.png" data-lightbox="tasks"><img src="/images/botnet/tasks.png"></a>
+            </div>
+            <div class="imgCap left">
+                <h3>Worker Profile</h3>
+                <a href="/images/botnet/botprofile.png" data-lightbox="botprofile"><img src="/images/botnet/botprofile.png"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -94,7 +139,25 @@
     <div id="background">
         <div id="backgroundDiv">
             <h2>Project Background</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information Here</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.NETBotNet was originally developed in the Fall of 2023 during the <a href="https://ycphacks.io">YCP Hacks</a>
+                Hackathon event at <a href="https://ycp.edu">York College of Pennsylvania</a>. I and a few friends,
+                <a href="https://www.linkedin.com/in/braden-fleming-2b8000234/">Braden Fleming</a>,
+                <a href="https://www.linkedin.com/in/elizabeth-mains-440269224/">Liz Mains</a>, and
+                <a href="https://www.linkedin.com/in/brandon-simmons-145b88223/">Brandon Simmons</a>, formed a team for the competition and
+                wanted to create a very basic botnet that could send out Distributed Denial of Service (DDOS) attacks to workers running on
+                different machines that we had control over.  Within the two days
+                that the event was held over, my team and I were able to create a functional <a href="https://github.com/YCPHacks2023-Botnet/C2Server">C2 control server</a> accompanied by an API
+                with endpoints for managing and controlling workers, or bots, along with creating the actual <a href="https://github.com/YCPHacks2023-Botnet/BotProgram">bot program</a> that runs on the machines
+                and performs the requested tasks that were sent to them from the C2 server. Finally, my team and I created a <a href=https://github.com/YCPHacks2023-Botnet/visual-ui"">Visual User Interface</a>,
+                where all tasks could be monitored and assigned from, along with the location of the worker, the specs of the machine it is running on, and
+                its live terminal output.  At the end of the event, my team and I ended up winning second place overall out of 26 teams.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following the event, two of my team members spoke with their professor, which at the time I also had but for a different course, and he
+                stated that they could build upon the project and submit it as their final project for the Ethics course at York College. After finding this out,
+                they asked if I would like to continue development of the botnet with them throughout the semester, to which I said yes, and we soon continued development of the project.
+                Over the next few weeks, we added a few small features to the project, such as a map that shows the location of each worker and a secure login
+                that only allows one user to actually view and control the botnet through the user interface. Our Professor agreed that if I came to the final period of the class
+                and presented the project with my two team members, he would count that as my final for when I take the class in the Fall of 2024.  So, I did just that, and our
+                project was voted first place out of all the projects from the Ethics course that semester.</p>
         </div>
     </div>
 </div>

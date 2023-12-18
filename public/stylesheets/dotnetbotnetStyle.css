@@ -112,7 +112,50 @@
     padding: 1%;
     text-align: left;
   }
-
+  #container1 {
+    width: 80%;
+    margin:auto;
+    padding: 1.95%;
+    padding-bottom: 0;
+    padding-top: 0px;
+    display: flex;
+    text-align: center;
+    border-radius: 0 0 0 0;
+    background-color: rgb(90,32,227);
+  }
+  #images {
+    width: 95%;
+    margin: auto;
+    display: inline-block;
+  }
+  #imagesDiv {
+    width: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    border-radius: 0 0 0 0;
+    background-color: rgb(213, 213, 213);
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word;
+    display: inline-block;
+  }
+  .imgCap {
+    width: 47% !important;
+    display: inline-block;
+  }
+  .imgCap h3 {
+    -webkit-text-fill-color: rgb(90,32,227);
+  }
+  .imgCap img {
+    width: 100% !important;
+    margin-bottom: 4%;
+  }
+  .left {
+    margin-right: 2%;
+  }
+  .right {
+    margin-left: 2%;
+  }
   #container2 {
     width: 80%;
     margin:auto;
@@ -182,11 +225,11 @@
     font-size: 18px;
   }
   #top {
-    width: 80%; 
-    margin: auto; 
+    width: 80%;
+    margin: auto;
     margin-top: 5%;
     text-align: center;
-  } 
+  }
   #top h1 {
     -webkit-text-fill-color: rgb(0, 30, 106);
     text-align: center;
@@ -279,7 +322,51 @@
     padding-bottom: 0px;
     text-align: left;
   }
-
+  #container1 {
+    width: 90%;
+    margin:auto;
+    padding: 1.95%;
+    padding-bottom: 0;
+    padding-top: 0px;
+    display: flex;
+    text-align: center;
+    border-radius: 0 0 0 0;
+    background-color: rgb(90,32,227);
+  }
+  #images {
+    width: 95.5%;
+    margin: auto;
+    display: inline-block;
+  }
+  #imagesDiv {
+    width: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    border-radius: 0 0 0 0;
+    background-color: rgb(213, 213, 213);
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word;
+    display: inline-block;
+  }
+  .imgCap {
+    width: 47% !important;
+    display: inline-block;
+  }
+  .imgCap h3 {
+    -webkit-text-fill-color: rgb(90,32,227);
+    font-size: 14px;
+  }
+  .imgCap img {
+    width: 100% !important;
+    margin-bottom: 4%;
+  }
+  .left {
+    margin-right: 2%;
+  }
+  .right {
+    margin-left: 2%;
+  }
   #container2 {
     width: 90%;
     margin:auto;
