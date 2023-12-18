@@ -112,7 +112,37 @@
     padding: 1%;
     text-align: left;
   }
-
+  #container1 {
+    width: 80%;
+    margin:auto;
+    margin-left: 10%;
+    padding: 0 1.95% 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(11,54,135);
+  }
+  #container1 img {
+    width: 80%;
+  }
+  #container1 h5 {
+    -webkit-text-fill-color: rgb(11,54,135);
+  }
+  #container1bg {
+    width: 95%;
+    margin: auto;
+    display: inline-block;
+  }
+  #container1Div {
+    width: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(213, 213, 213);
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
   #container2 {
     width: 80%;
     margin:auto;
@@ -120,7 +150,7 @@
     margin-bottom: 5%;
     padding: 1.95%;
     padding-bottom: 3.85%;
-    padding-top: 0px;
+    padding-top: 0;
     display: inline-block;
     text-align: center;
     border-radius: 0px 0px 20px 20px;
@@ -155,6 +185,12 @@
   }
   #backgroundDiv a {
     color: rgb(0, 48, 194);
+  }
+  #backgroundDiv h5 {
+    -webkit-text-fill-color: rgb(11,54,135);
+  }
+  .leftHolder {
+    text-align: left;
   }
 }
 @media only screen and (max-width : 768px) {
@@ -279,7 +315,38 @@
     padding-bottom: 0px;
     text-align: left;
   }
-
+  #container1 {
+    width: 90%;
+    margin:auto;
+    margin-left: 5%;
+    padding: 0 1.95% 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(11,54,135);
+  }
+  #container1 img {
+    width: 100%;
+  }
+  #container1 h5 {
+    -webkit-text-fill-color: rgb(11,54,135);
+    font-size: 14px;
+  }
+  #container1bg {
+    width: 95.5%;
+    margin: auto;
+    display: inline-block;
+  }
+  #container1Div {
+    width: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(213, 213, 213);
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
   #container2 {
     width: 90%;
     margin:auto;
@@ -326,6 +393,16 @@
   }
   #backgroundDiv a {
     color: rgb(0, 48, 194);
+    font-size: 12px;
+  }
+  #backgroundDiv h5 {
+    -webkit-text-fill-color: rgb(11,54,135);
+    font-size: 14px;
+  }
+  .leftHolder {
+    text-align: left;
+  }
+  .leftHolder ul li {
     font-size: 12px;
   }
 }
